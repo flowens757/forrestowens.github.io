@@ -198,3 +198,7 @@ button[title*="dark"],
 button[title*="Dark"] {
   display: none !important;
 }
+
+body {
+  outline: 12px solid red !important;
+}
