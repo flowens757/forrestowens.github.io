@@ -168,9 +168,28 @@ body,
 }
 
 .masthead,
+.masthead__inner-wrap,
+.masthead__menu,
 .greedy-nav,
-.visible-links,
-.hidden-links {
+.greedy-nav .visible-links,
+.greedy-nav .hidden-links,
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links li a {
   background-color: var(--forrest-sage-light) !important;
+}
+
+.theme-toggle,
+.theme-toggle-button,
+.theme-toggle__button,
+.masthead__theme-toggle,
+button[aria-label*="theme"],
+button[aria-label*="Theme"],
+button[aria-label*="dark"],
+button[aria-label*="Dark"],
+button[title*="theme"],
+button[title*="Theme"],
+button[title*="dark"],
+button[title*="Dark"] {
+  display: none !important;
 }
 
