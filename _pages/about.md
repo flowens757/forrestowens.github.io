@@ -16,5 +16,5 @@ In my free time you can find me taking advantage of all the outdoor adventures C
 
 ## Research Interests
 
-Climate politics; political economy; African politics; international development; foreign aid; public opinion.
+Climate Politics; Political Economy; African Politics; International Development; Foreign Aid; Survey Research.
 
