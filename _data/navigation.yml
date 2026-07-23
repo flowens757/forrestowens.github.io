@@ -14,8 +14,8 @@ main:
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "CV"
-    url: /files/Forrest_Owens_CV_july_2026.pdf/    
+- title: "CV"
+  url: /files/Forrest_Owens_CV_july_2026.pdf
     
   - title: "Contact"
     url: /contact/
