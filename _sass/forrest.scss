@@ -11,7 +11,7 @@ body {
 
 a,
 .page__content a {
-  color: var(--forrest-sage-dark);
+  color: var(--forrest-sage-light);
 }
 
 a:hover,
@@ -88,16 +88,28 @@ hr {
   border-color: #d7e3d2;
 }
 
-.research-entry {
-  margin: 0 0 1.45rem;
+.research-list {
+  margin: 0 0 1.5rem 1.15rem;
+  padding-left: 0.9rem;
+}
+
+.research-list li {
+  margin-bottom: 1.15rem;
+  padding-left: 0.2rem;
+}
+
+.research-list li::marker {
+  color: var(--forrest-sage-dark);
 }
 
 .research-title {
-  margin-bottom: 0.15rem;
+  display: block;
+  margin-bottom: 0.1rem;
   font-weight: 700;
 }
 
 .research-meta {
+  display: block;
   margin: 0 0 0.25rem;
   color: #5c665b;
 }
@@ -120,3 +132,4 @@ hr {
 .research-abstract p {
   margin-top: 0.55rem;
 }
+
