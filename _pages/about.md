@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hi, I'm Forrest"
+title: "Willkommen, Bienvenue, Welcome!"
 author_profile: true
 redirect_from:
   - /about/
@@ -13,13 +13,8 @@ I'm originally from Virginia, where I attended the College of William & Mary and
 
 In my free time you can find me taking advantage of all the outdoor adventures California has to offer. I'm always on the lookout for great hiking trails, camping spots, and places to paddleboard. An avid sports fan, you'll also see me cheering for my beloved Washington, D.C. sports teams as well as my William & Mary Tribe and Sacramento Kings.
 
-<p class="forrest-actions">
-  <a class="forrest-button" href="/publications/">Research</a>
-  <a class="forrest-button forrest-button-outline" href="/cv/">CV</a>
-  <a class="forrest-button forrest-button-outline" href="mailto:flowens@ucdavis.edu">Email</a>
-</p>
 
 ## Research
 
-My research focuses on how climate change impacts political systems in developing countries. Currently, I current I am wokring on numerous projects related to have expsosure to extreme temperature and variable rainfall influence political behavior across Africa. 
+My research focuses on how climate change impacts political systems in developing countries. Currently, I am working on numerous projects related to how expsosure to extreme temperature and variable rainfall influence political behavior across Africa. 
 
