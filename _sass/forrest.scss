@@ -151,37 +151,43 @@ hr {
   margin-top: 0.55rem;
 }
 
+/* Force full sage background */
 html,
 body,
-.layout--single,
-.initial-content,
 #main,
+.initial-content,
+.layout--single,
 .page,
 .page__inner-wrap,
 .page__content,
-.archive,
 .sidebar,
-.sidebar__right,
-.author__urls-wrapper,
-.author__content {
+.sidebar.sticky,
+.author__content,
+.author__urls-wrapper {
+  background: var(--forrest-sage-light) !important;
   background-color: var(--forrest-sage-light) !important;
 }
 
+/* Force masthead/nav sage */
 .masthead,
 .masthead__inner-wrap,
 .masthead__menu,
 .greedy-nav,
 .greedy-nav .visible-links,
-.greedy-nav .hidden-links,
 .greedy-nav .visible-links li,
-.greedy-nav .visible-links li a {
+.greedy-nav .visible-links li a,
+.greedy-nav .hidden-links,
+.greedy-nav .hidden-links li,
+.greedy-nav .hidden-links li a {
+  background: var(--forrest-sage-light) !important;
   background-color: var(--forrest-sage-light) !important;
 }
 
-.theme-toggle,
-.theme-toggle-button,
-.theme-toggle__button,
-.masthead__theme-toggle,
+/* Hide theme toggle / sun icon */
+.greedy-nav .theme-toggle,
+.greedy-nav button,
+.masthead button,
+button[aria-label*="Toggle"],
 button[aria-label*="theme"],
 button[aria-label*="Theme"],
 button[aria-label*="dark"],
@@ -192,4 +198,3 @@ button[title*="dark"],
 button[title*="Dark"] {
   display: none !important;
 }
-
