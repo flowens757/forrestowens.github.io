@@ -13,10 +13,10 @@ title                    : "Forrest Owens"
 title_separator          : "-"
 name                     : &name "Forrest Owens"
 description              : &description "PhD Candidate in Political Science | University of California, Davis"
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://forrestowens.com # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "flowens757/forrestowens.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,14 +26,10 @@ author:
   avatar           : "profile.png"
   name             : "Forrest Owens"
   pronouns         :  "he/him/his"  
-  bio              : "Hello! My name is Forrest and I am a PhD Candidate in the Department of Political Science at the Universoty of California, Davis. My research is at the nexus of International Relations and Comparative Politics. More specifically, I study how climate change impact political systems in developing countries. My dissertation examines how climate shocks influence protest, vote buying, and climate change opinions across Africa. Beyond my dissertation I am interested in international and comparative political economy and foreign aid. 
-  
-  I'm originally from Virginia where I attended the College of William & Mary and graduated with a B.A in Public Policy and a minor in Hispanic Studies. Upon graduation I moved to Washington, D.C where I worked in a variety of consulting jobs in public opinion research.
-  
-  In my free time you can find me taking advantage of all the outdoor adventures California has to offer! I'm always on the lookout for great hiking trails, camping spots, and places to paddleboard. An avid sports fan, you'll also see me cheering for my beloved Washington, D.C sports teams as well as my William & Mary Tribe and Sacramento Kings."
+  bio              : "Hello! My name is Forrest and I am a PhD Candidate in the Department of Political Science at the University of California, Davis. Welcome to my website!"
   location         : "Davis, CA"
   affiliation      : "Political Science Department | University of California, Davis"
-  uri              : # URL
+  uri              : "https://forrestowens.com"
   email            : "flowens@ucdavis.edu" 
 
   # Academic websites
@@ -42,9 +38,9 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :0009-0003-4895-1729
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
 
@@ -52,13 +48,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           :
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -75,7 +71,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : # @ForrestLOwens
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
