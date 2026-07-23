@@ -15,10 +15,12 @@ body {
   background: var(--forrest-sage-light);
 }
 
-.page {
-  background: #fff;
-  border-left: 1px solid #d7e3d2;
-  border-right: 1px solid #d7e3d2;
+.page,
+.page__content,
+.archive,
+.initial-content,
+.sidebar {
+  background: var(--forrest-sage-light);
 }
 
 .sidebar {
