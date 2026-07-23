@@ -1,7 +1,7 @@
 :root {
   --forrest-sage: #6f8f72;
   --forrest-sage-dark: #45624a;
-  --forrest-sage-light: #edf3ea;
+  --forrest-sage-light: #dfe9da;
   --forrest-ink: #263128;
 }
 
@@ -149,5 +149,28 @@ hr {
 
 .research-abstract p {
   margin-top: 0.55rem;
+}
+
+html,
+body,
+.layout--single,
+.initial-content,
+#main,
+.page,
+.page__inner-wrap,
+.page__content,
+.archive,
+.sidebar,
+.sidebar__right,
+.author__urls-wrapper,
+.author__content {
+  background-color: var(--forrest-sage-light) !important;
+}
+
+.masthead,
+.greedy-nav,
+.visible-links,
+.hidden-links {
+  background-color: var(--forrest-sage-light) !important;
 }
 
