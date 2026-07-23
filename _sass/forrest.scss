@@ -1,0 +1,122 @@
+:root {
+  --forrest-sage: #6f8f72;
+  --forrest-sage-dark: #45624a;
+  --forrest-sage-light: #edf3ea;
+  --forrest-ink: #263128;
+}
+
+body {
+  color: var(--forrest-ink);
+}
+
+a,
+.page__content a {
+  color: var(--forrest-sage-dark);
+}
+
+a:hover,
+.page__content a:hover {
+  color: #2f4734;
+}
+
+.masthead {
+  background: #fbfdf9;
+  border-bottom: 1px solid #d7e3d2;
+}
+
+.masthead__menu-item a {
+  color: var(--forrest-ink);
+}
+
+.masthead__menu-item a:hover {
+  color: var(--forrest-sage-dark);
+}
+
+.page__title {
+  color: var(--forrest-ink);
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  color: var(--forrest-ink);
+}
+
+.author__avatar img {
+  border: 3px solid #d7e3d2;
+}
+
+.author__urls a:hover {
+  color: var(--forrest-sage-dark);
+}
+
+.forrest-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.forrest-button {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--forrest-sage-dark);
+  border-radius: 4px;
+  background: var(--forrest-sage-dark);
+  color: #fff !important;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.forrest-button:hover {
+  background: #2f4734;
+  border-color: #2f4734;
+  color: #fff !important;
+}
+
+.forrest-button-outline {
+  background: #fff;
+  color: var(--forrest-sage-dark) !important;
+}
+
+.forrest-button-outline:hover {
+  background: var(--forrest-sage-light);
+  color: #2f4734 !important;
+}
+
+hr {
+  border-color: #d7e3d2;
+}
+
+.research-entry {
+  margin: 0 0 1.45rem;
+}
+
+.research-title {
+  margin-bottom: 0.15rem;
+  font-weight: 700;
+}
+
+.research-meta {
+  margin: 0 0 0.25rem;
+  color: #5c665b;
+}
+
+.research-abstract {
+  margin-top: 0.2rem;
+}
+
+.research-abstract summary {
+  display: inline-block;
+  color: var(--forrest-sage-dark);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.research-abstract summary:hover {
+  color: #2f4734;
+}
+
+.research-abstract p {
+  margin-top: 0.55rem;
+}
