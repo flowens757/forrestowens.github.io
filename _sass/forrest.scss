@@ -6,7 +6,23 @@
 }
 
 body {
+  background: var(--forrest-sage-light);
   color: var(--forrest-ink);
+}
+
+.initial-content,
+.archive {
+  background: var(--forrest-sage-light);
+}
+
+.page {
+  background: #fff;
+  border-left: 1px solid #d7e3d2;
+  border-right: 1px solid #d7e3d2;
+}
+
+.sidebar {
+  background: var(--forrest-sage-light);
 }
 
 a,
