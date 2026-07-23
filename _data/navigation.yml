@@ -9,16 +9,14 @@
 
 main:
   - title: "Research"
-    url: /publications/
+    url: /research/
 
   - title: "Teaching"
-    url: /talks/    
+    url: /teaching/    
 
   - title: "CV"
-    url: /teaching/    
+    url: /AV/    
     
   - title: "Contact"
-    url: /portfolio/
-        
-  - title: "Guide"
-    url: /markdown/
+    url: /Contact/
+
