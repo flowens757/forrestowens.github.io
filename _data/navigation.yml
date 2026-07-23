@@ -7,16 +7,17 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
+# The following is the order of the links in the header of the website.
+
 main:
   - title: "Research"
     url: /research/
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
 
-- title: "CV"
-  url: /files/Forrest_Owens_CV_july_2026.pdf
-    
+  - title: "CV"
+    url: /files/Forrest_Owens_CV_july_2026.pdf
+
   - title: "Contact"
     url: /contact/
-
