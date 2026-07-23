@@ -35,10 +35,10 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # 
-  googlescholar    : ""
+  googlescholar    : 
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            :0009-0003-4895-1729
+  orcid            :"0009-0003-4895-1729"
   semantic         : # URL
   pubmed           :
   researchgate     : # URL
@@ -71,7 +71,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # @ForrestLOwens
+  twitter          : # "@ForrestLOwens"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
