@@ -5,9 +5,8 @@ permalink: /teaching/
 author_profile: true
 ---
 
-My teaching interests include comparative politics, international relations, political economy, African politics, environmental politics, and research methods.
+I believe that teaching is a vital aspect of being a professor. My goal as an instructor is to promote a challenging and inclusive environment for all students. I take great care to promote critical thinking and advance students' understanding of the course material.
 
-I am especially interested in helping students connect large political questions to careful empirical evidence: how states respond to social pressure, how citizens form political demands, and how global economic and environmental changes reshape domestic politics.
 
 ## Teaching Experience
 
