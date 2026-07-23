@@ -5,26 +5,25 @@
   --forrest-ink: #263128;
 }
 
-body {
-  background: var(--forrest-sage-light);
-  color: var(--forrest-ink);
-}
-
+html,
+body,
+#main,
 .initial-content,
-.archive {
-  background: var(--forrest-sage-light);
-}
-
+.layout--single,
 .page,
+.page__inner-wrap,
 .page__content,
 .archive,
-.initial-content,
-.sidebar {
-  background: var(--forrest-sage-light);
+.sidebar,
+.sidebar.sticky,
+.author__content,
+.author__urls-wrapper {
+  background: var(--forrest-sage-light) !important;
+  background-color: var(--forrest-sage-light) !important;
 }
 
-.sidebar {
-  background: var(--forrest-sage-light);
+body {
+  color: var(--forrest-ink);
 }
 
 a,
@@ -37,96 +36,71 @@ a:hover,
   color: #2f4734;
 }
 
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav .visible-links,
+.greedy-nav .visible-links li,
+.greedy-nav .visible-links li a,
+.greedy-nav .hidden-links,
+.greedy-nav .hidden-links li,
+.greedy-nav .hidden-links li a {
+  background: var(--forrest-sage-light) !important;
+  background-color: var(--forrest-sage-light) !important;
+}
+
 .masthead {
-  background: var(--forrest-sage-light);
   border-bottom: 1px solid #d7e3d2;
 }
 
+.page__title,
+.page__content h1,
+.page__content h2,
+.page__content h3,
 .masthead__menu-item a {
   color: var(--forrest-ink);
 }
 
-.masthead__menu-item a:hover {
+.masthead__menu-item a:hover,
+.author__urls a:hover {
   color: var(--forrest-sage-dark);
-}
-
-.page__title {
-  color: var(--forrest-ink);
-}
-
-.page__content h1,
-.page__content h2,
-.page__content h3 {
-  color: var(--forrest-ink);
 }
 
 .author__avatar img {
   border: 3px solid #d7e3d2;
 }
 
-.author__urls a:hover {
-  color: var(--forrest-sage-dark);
-}
-
-.forrest-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
-  margin: 1.5rem 0 2rem;
-}
-
-.forrest-button {
-  display: inline-block;
-  padding: 0.55rem 0.9rem;
-  border: 1px solid var(--forrest-sage-dark);
-  border-radius: 4px;
-  background: var(--forrest-sage-dark);
-  color: #fff !important;
-  font-size: 0.85rem;
-  text-decoration: none;
-}
-
-.forrest-button:hover {
-  background: #2f4734;
-  border-color: #2f4734;
-  color: #fff !important;
-}
-
-.forrest-button-outline {
-  background: #fff;
-  color: var(--forrest-sage-dark) !important;
-}
-
-.forrest-button-outline:hover {
-  background: var(--forrest-sage-light);
-  color: #2f4734 !important;
-}
-
 hr {
   border-color: #d7e3d2;
 }
 
-.research-list {
+.research-list,
+.teaching-list {
   margin: 0 0 1.5rem 1.15rem;
   padding-left: 0.9rem;
 }
 
-.research-list li {
+.research-list li,
+.teaching-list li {
   margin-bottom: 1.15rem;
   padding-left: 0.2rem;
 }
 
-.research-list li::marker {
+.research-list li::marker,
+.teaching-list li::marker {
   color: var(--forrest-sage-dark);
 }
 
-.research-title {
+.research-title,
+.teaching-title {
   display: block;
   margin-bottom: 0.1rem;
   font-weight: 700;
 }
 
-.research-meta {
+.research-meta,
+.teaching-meta {
   display: block;
   margin: 0 0 0.25rem;
   color: #5c665b;
@@ -151,39 +125,6 @@ hr {
   margin-top: 0.55rem;
 }
 
-/* Force full sage background */
-html,
-body,
-#main,
-.initial-content,
-.layout--single,
-.page,
-.page__inner-wrap,
-.page__content,
-.sidebar,
-.sidebar.sticky,
-.author__content,
-.author__urls-wrapper {
-  background: var(--forrest-sage-light) !important;
-  background-color: var(--forrest-sage-light) !important;
-}
-
-/* Force masthead/nav sage */
-.masthead,
-.masthead__inner-wrap,
-.masthead__menu,
-.greedy-nav,
-.greedy-nav .visible-links,
-.greedy-nav .visible-links li,
-.greedy-nav .visible-links li a,
-.greedy-nav .hidden-links,
-.greedy-nav .hidden-links li,
-.greedy-nav .hidden-links li a {
-  background: var(--forrest-sage-light) !important;
-  background-color: var(--forrest-sage-light) !important;
-}
-
-/* Hide theme toggle / sun icon */
 .greedy-nav .theme-toggle,
 .greedy-nav button,
 .masthead button,
@@ -197,8 +138,4 @@ button[title*="Theme"],
 button[title*="dark"],
 button[title*="Dark"] {
   display: none !important;
-}
-
-body {
-  outline: 12px solid red !important;
 }
